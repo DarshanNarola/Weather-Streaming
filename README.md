@@ -12,7 +12,7 @@ The data flow is as follows:
 4. **Azure Event Hub** - Streams the processed data for downstream consumers.
 
 ### Visual Representation
-![Architecture Diagram](./diagram.png)
+![Architecture Diagram](https://github.com/user-attachments/assets/e399f393-c41e-46c4-b226-ef9c2de01ceb))
 
 ## Technologies Used
 - **Weather API**: Provides live weather data.
@@ -47,18 +47,6 @@ The data flow is as follows:
 ### Step 5: Implement the Pipeline
 1. Fetch data using Databricks (via the Weather API and Key Vault).
 2. Stream processed data to Azure Event Hub.
-
-## Folder Structure
-```
-- src/
-  - databricks_notebook.ipynb
-  - event_hub_config.json
-- docs/
-  - architecture.md
-  - setup_guide.md
-- diagram.png
-- README.md
-```
 
 ## Execution
 1. Run the Databricks notebook to fetch, process, and stream data.
